@@ -1,0 +1,41 @@
+/*Style.css - til dine custom styles*/
+
+/* img{
+    width: 100%;
+}
+#voresis {
+  text-align: center;
+}
+
+#voresis .col-xs-12 {
+  margin-bottom: 2em;
+}
+
+#tilbud div {
+  margin-bottom: 2em;
+}
+
+section {
+  padding: 2em 0;
+}
+*/
+
+/*#hero {
+  background-color: red;
+}*/
+/*
+#voresis {
+  background-color: lightyellow;
+}
+
+#tilbud {
+  background-color: burlywood;
+}
+
+#omos {
+  background-color: lavender;
+}
+*/
+.card {
+  background-color: transparent;
+}
