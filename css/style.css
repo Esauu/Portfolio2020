@@ -1,9 +1,19 @@
+body {
+    background-color: #1C1A20
+}
+
+.burgermenu {
+    display: block;
+}
+
+.nav {
+    display: none;
+}
+
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
 /**************************************************/
 @media (min-width: 576px) {
-
-
 
     /* END "sm-" 576px and up */
 }
@@ -12,6 +22,15 @@
 /* // Medium devices (tablets, 768px and up) */
 /**************************************************/
 @media (min-width: 768px) {
+    .burgermenu {
+        display: none;
+    }
+
+    .nav {
+        display: block;
+    }
+
+
 
 
 
