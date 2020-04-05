@@ -2,6 +2,22 @@ body {
     background-color: #1C1A20
 }
 
+p {
+    color: white;
+    /*    font-family: "metropolisextra_bold";*/
+}
+
+h1,
+h2 {
+    color: white;
+    text-transform: uppercase;
+    font-family: "metropolisextra_bold";
+
+
+}
+
+
+
 .burgermenu {
     display: block;
 }
@@ -9,6 +25,56 @@ body {
 .nav {
     display: none;
 }
+
+.redbox {
+    width: 300px;
+    height: 600px;
+    background-color: #FF5851;
+}
+
+.redboxpos {
+    left: 0px;
+    top: -40px;
+}
+
+#hero {
+    min-height: 100vh, ;
+}
+
+#hero h1 {
+    z-index: 2;
+}
+
+#hero p {
+    z-index: 2;
+}
+
+#hero .textbox {
+    max-width: 20em;
+}
+
+#heropic {
+    z-index: 2;
+}
+
+
+
+/************************ FONTS **************************/
+
+@font-face {
+    font-family: 'metropolisextra_bold';
+    src: url('metropoliseb-webfont.woff2') format('woff2'),
+        url('metropoliseb-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+}
+
+
+
+
+/************************* -- *************************/
+
+
 
 /**************************************************/
 /* Small devices (landscape phones, 576px and up) */
