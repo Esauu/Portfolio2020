@@ -1,0 +1,33 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+
+.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.hidden {
+    display: none;
+}
+
+.pos {
+    left: 10px;
+    top: 100px;
+
+}
