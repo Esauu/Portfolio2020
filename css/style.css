@@ -128,7 +128,6 @@ h2 {
 .projekt4 {
     background-color: peru;
     height: 100vh;
-
 }
 
 
@@ -136,7 +135,52 @@ h2 {
 
 
 
-footer {}
+footer {
+    min-height: 25vh;
+}
+
+footer .arrow {
+    font-size: 3em;
+    color: #FF5851;
+    line-height: 0.4;
+    transform: rotate(180deg);
+
+}
+
+footer .fas {
+    line-height: 0.4;
+}
+
+footer .pos {
+    right: 15px;
+    top: 15px;
+}
+
+footer .pt-8 {
+    padding-top: 2vh;
+}
+
+footer .center {
+    padding: 15.6px;
+}
+
+footer .centerr {
+    padding: 15px;
+}
+
+.some {}
+
+.cirkel {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #16131c;
+}
+
+.cirkel:hover {
+    background-color: #231f2a;
+    cursor: pointer;
+}
 
 /*footeren ligger nede i bunden af box nummer 1 fordi det er 100vh nede*/
 
