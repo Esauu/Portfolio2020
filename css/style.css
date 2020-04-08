@@ -11,6 +11,8 @@ h1,
 h2 {
     color: white;
     text-transform: uppercase;
+    font-family: 'metropolisextra_bold';
+    font-size: 3.6em;
 }
 
 
@@ -41,7 +43,7 @@ h2 {
 #hero h1 {
     z-index: 2;
     margin-top: 100px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 #hero p {
