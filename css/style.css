@@ -2,6 +2,11 @@ body {
     background-color: #1C1A20
 }
 
+.container {
+    padding: 0;
+    /*ingen padding i mobile*/
+}
+
 p {
     color: white;
 }
@@ -34,6 +39,8 @@ h2 {
 
 #hero .redboxpos {
     margin-left: 40px;
+    width: 50vw;
+    /*undgå x scroll*/
 }
 
 #hero {
@@ -95,6 +102,11 @@ h2 {
 
 .projekt1 {
     background-color: lightblue;
+    height: 90vh;
+}
+
+.projekt2 {
+    background-color: crimson;
     height: 80vh;
 }
 
