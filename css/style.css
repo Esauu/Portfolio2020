@@ -36,16 +36,15 @@ h2 {
 
 /*****************  HERO BOX  ****************************/
 
-.redbox {
+#hero .redbox {
     width: 300px;
-    height: 600px;
+    height: 700px;
     background-color: #FF5851;
 }
 
 #hero .redboxpos {
     margin-left: 40px;
     width: 50vw;
-    /*undgå x scroll*/
 }
 
 #hero {
@@ -134,6 +133,102 @@ h2 {
 
 
 
+/* INFO */
+
+#info {
+    min-height: 100vh;
+}
+
+#info .redbox {
+    width: 300px;
+    height: 700px;
+    background-color: #FF5851;
+    /*
+    width: 200px;
+    height: 500vh;
+    background-color: #FF5851;
+    transform: rotate(140deg);
+*/
+}
+
+
+#info .redboxpos {
+    margin-left: 40px;
+    width: 50vw;
+    /*    margin-top: -1648px;*/
+}
+
+
+#info h1 {
+    z-index: 2;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: 'metropolisextra_bold';
+    font-size: 3.6em;
+}
+
+#info p {
+    z-index: 2;
+}
+
+#info .textbox {
+    left: 20px;
+    top: 300px;
+}
+
+
+
+#info .pos {
+    top: 60%;
+    left: 230px;
+}
+
+#info .arrow {
+    font-size: 3em;
+    color: #FF5851;
+}
+
+#info .fas {
+    line-height: 0.4;
+}
+
+#info .scrolldown {
+    bottom: -6rem;
+    left: -30px;
+}
+
+#info .pospil {
+    top: 640px;
+}
+
+#omtext .skub {
+    top: -67px;
+    left: 10px;
+    z-index: 1;
+}
+
+#omtext h2 {
+    font-size: 5em;
+}
+
+#omtext h2::after {
+    content: ".";
+    color: #FF5851;
+}
+
+#omtext {}
+
+#omtext .omtext {
+    background-color: seagreen;
+    text-align: left;
+    height: 110vh;
+    font-size: 1.1em;
+}
+
+
+
+
+/*                --------------           */
 
 footer {
     min-height: 25vh;
