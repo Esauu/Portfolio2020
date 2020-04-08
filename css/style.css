@@ -4,7 +4,6 @@ body {
 
 p {
     color: white;
-    /*    font-family: "metropolisextra_bold";*/
 }
 
 h1,
@@ -12,7 +11,7 @@ h2 {
     color: white;
     text-transform: uppercase;
     font-family: 'metropolisextra_bold';
-    font-size: 3.6em;
+    font-size: 2.5em;
 }
 
 
@@ -25,6 +24,8 @@ h2 {
     display: none;
 }
 
+/*****************  HERO BOX  ****************************/
+
 .redbox {
     width: 300px;
     height: 600px;
@@ -32,8 +33,7 @@ h2 {
 }
 
 #hero .redboxpos {
-    left: 40px;
-    top: -40px;
+    margin-left: 40px;
 }
 
 #hero {
@@ -44,6 +44,8 @@ h2 {
     z-index: 2;
     margin-top: 100px;
     margin-left: 30px;
+    font-family: 'metropolisextra_bold';
+    font-size: 3.6em;
 }
 
 #hero p {
@@ -77,29 +79,33 @@ h2 {
 }
 
 #hero .scrolldown {
-    bottom: -9rem;
-    left: -10px;
+    bottom: -6rem;
+    left: -30px;
 }
 
 
 .box {
     height: 100vh;
     width: auto;
-    ;
 }
 
-footer {
-    min-height: 100px;
+/*****************  HERO BOX END  ****************************/
+
+/* PROJEKTER */
+
+.projekt1 {
+    background-color: lightblue;
+    height: 80vh;
 }
+
+
+
+
+
+
+footer {}
 
 /*footeren ligger nede i bunden af box nummer 1 fordi det er 100vh nede*/
-
-
-/************************ FONTS **************************/
-
-
-
-/************************* -- *************************/
 
 
 
