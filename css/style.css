@@ -1,6 +1,7 @@
 body {
-    background-color: #1C1A20
+    background-color: #1C1A20;
 }
+
 
 .container {
     padding: 0;
@@ -19,6 +20,9 @@ h2 {
     font-size: 2.5em;
 }
 
+.pt-6 {
+    padding-top: 5em;
+}
 
 
 .burgermenu {
@@ -60,7 +64,6 @@ h2 {
 }
 
 #hero .textbox {
-    max-width: 20em;
     left: 20px;
     top: 300px;
 }
@@ -100,14 +103,36 @@ h2 {
 
 /* PROJEKTER */
 
+#projekter .textbox {
+    max-width: 400px;
+    text-align: left;
+    margin: auto;
+}
+
+#projekter p {
+    font-size: 1.3em;
+}
+
 .projekt1 {
     background-color: lightblue;
-    height: 90vh;
+    height: 100vh;
 }
 
 .projekt2 {
     background-color: crimson;
-    height: 80vh;
+    height: 100vh;
+}
+
+.projekt3 {
+    background-color: gold;
+    height: 100vh;
+
+}
+
+.projekt4 {
+    background-color: peru;
+    height: 100vh;
+
 }
 
 
