@@ -11,9 +11,6 @@ h1,
 h2 {
     color: white;
     text-transform: uppercase;
-    font-family: "metropolisextra_bold";
-
-
 }
 
 
@@ -32,8 +29,8 @@ h2 {
     background-color: #FF5851;
 }
 
-.redboxpos {
-    left: 0px;
+#hero .redboxpos {
+    left: 40px;
     top: -40px;
 }
 
@@ -43,6 +40,8 @@ h2 {
 
 #hero h1 {
     z-index: 2;
+    margin-top: 100px;
+    margin-left: 40px;
 }
 
 #hero p {
@@ -51,24 +50,50 @@ h2 {
 
 #hero .textbox {
     max-width: 20em;
+    left: 20px;
+    top: 300px;
 }
 
 #heropic {
     z-index: 2;
+    max-height: 200px;
+    max-width: 200px;
 }
 
+#hero .pos {
+    top: 60%;
+    left: 230px;
+}
+
+#hero .arrow {
+    font-size: 3em;
+    color: #FF5851;
+}
+
+#hero .fas {
+    line-height: 0.4;
+}
+
+#hero .scrolldown {
+    bottom: -9rem;
+    left: -10px;
+}
+
+
+.box {
+    height: 100vh;
+    width: auto;
+    ;
+}
+
+footer {
+    min-height: 100px;
+}
+
+/*footeren ligger nede i bunden af box nummer 1 fordi det er 100vh nede*/
 
 
 /************************ FONTS **************************/
-
-@font-face {
-    font-family: 'metropolisextra_bold';
-    src: url('metropoliseb-webfont.woff2') format('woff2'),
-        url('metropoliseb-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: bold;
-}
-
 
 
 

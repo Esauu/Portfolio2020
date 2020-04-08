@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="bs/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/burgermenu.css">
+    <link rel="stylesheet" href="">
+
 </head>
 
 <body>
@@ -31,19 +33,22 @@
 
     <main class="container">
 
-        <section id="hero" class="row position-relative">
+        <section id="hero" class="row position-relative box">
             <h1>//portfolio</h1>
-            <p class="textbox">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero perferendis placeat mollitia veniam, quasi sequi voluptate dolorum. Ut tempore porro totam nulla odit repudiandae corporis, itaque veritatis recusandae eius aspernatur.</p>
-
-            <img id="heropic" class="img-fluid col-9" src="img/tape.png" alt="">
-
+            <p class="textbox position-absolute textbox">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero perferendis placeat mollitia veniam, quasi sequi voluptate dolorum. Ut tempore porro totam nulla odit repudiandae corporis, itaque veritatis recusandae eius aspernatur.</p>
+            <div class="position-absolute pos">
+                <img id="heropic" class="img-fluid col-9" src="img/tape.png" alt="">
+            </div>
             <div class="col-12 position-absolute redboxpos">
                 <div class="redbox">
                 </div>
 
-                <div class="scrolldown">
+                <div class="scrolldown position-relative">
                     <p>scroll</p>
-                    <div></div>
+                    <div class="arrow d-flex flex-column">
+                        <i class="fas fa-chevron-down"></i>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
                 </div>
 
 
@@ -51,24 +56,24 @@
 
         </section>
 
-        <section id="projekter" class="row">
+        <section id="projekter" class="row mt-5 box">
             <div class="col-12">
                 <h2>Projekter.</h2>
             </div>
-            <div class="col-12">
-                <h2></h2>
+            <div class="col-12 mt-5 box">
+                <h2>1</h2>
             </div>
 
-            <div class="col-12">
-                <h2></h2>
+            <div class="col-12 box">
+                <h2>2</h2>
             </div>
 
-            <div class="col-12">
-                <h2></h2>
+            <div class="col-12 box">
+                <h2>3</h2>
             </div>
 
-            <div class="col-12">
-                <h2></h2>
+            <div class="col-12 box">
+                <h2>4</h2>
             </div>
 
             <div class="col-12">
@@ -84,10 +89,13 @@
 
         <footer>
 
+            <p>FOOTER</p>
+
         </footer>
     </main>
 
 
+    <script src="https://kit.fontawesome.com/af0c0370da.js" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
