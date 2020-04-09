@@ -303,7 +303,6 @@ footer .centerr {
     #hero .redbox {
         width: 300px;
         height: 600px;
-        background-color: #FF5851;
     }
 
     #hero .redboxpos {
@@ -312,7 +311,7 @@ footer .centerr {
 
     #hero .scrolldown {
         bottom: -140px;
-        left: -40px;
+        left: -60px;
     }
 
 
@@ -325,11 +324,43 @@ footer .centerr {
 /**************************************************/
 @media (min-width: 768px) {
 
-    body {
-        background-color: gold;
+    #hero h1 {
+        font-size: 95px;
     }
 
-    .container {}
+    #hero .redbox {
+        width: 400px;
+        height: 650px;
+
+    }
+
+    #hero .redboxpos {
+        margin-left: 20vw;
+    }
+
+    #hero .textbox {
+        left: 320px;
+        top: 290px;
+    }
+
+    #hero .scrolldown {
+        bottom: -100px;
+        left: -150px;
+    }
+
+    #heropic {
+        max-height: 330px;
+        max-width: 330px;
+    }
+
+    #hero .pos {
+        top: 55%;
+        left: 400px;
+    }
+
+    #hero .padtop {
+        padding-top: 50px;
+    }
 
 
     .burgermenu {
@@ -343,9 +374,7 @@ footer .centerr {
     }
 
     #projekter .textbox {
-        max-width: 400px;
-        text-align: left;
-
+        max-width: 460px;
     }
 
 
@@ -358,6 +387,46 @@ footer .centerr {
 /**************************************************/
 @media (min-width: 992px) {
 
+    #heropic {
+        max-height: 360px;
+        max-width: 360px;
+    }
+
+    #hero .pos {
+        left: 390px;
+    }
+
+    #hero .scrolldown {
+        /*        bottom: -100px;*/
+        left: -200px;
+    }
+
+    #projekter .skub {
+        left: 7.94vw;
+        top: -5px;
+    }
+
+    #projekter .textbox {
+        max-width: 460px;
+        max-height: 200px
+    }
+
+    .projekt1 {
+        height: 90vh;
+    }
+
+    .projekt2 {
+        height: 90vh;
+    }
+
+    .projekt3 {
+        height: 90vh;
+
+    }
+
+    .projekt4 {
+        height: 90vh;
+    }
 
 
 
@@ -370,6 +439,14 @@ footer .centerr {
 @media (min-width: 1200px) {
     .container {}
 
+    .xl {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    body {
+        background-color: gold;
+    }
 
     /* END "xl-" 1200px and up */
 }
