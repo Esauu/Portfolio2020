@@ -6,7 +6,7 @@ body {
 .container {
     padding: 0;
     min-height: 100%;
-    /*ingen padding i mobile*/
+
 }
 
 p {
@@ -145,10 +145,6 @@ h2 {
     background-color: peru;
     height: 100vh;
 }
-
-
-
-
 
 /*                    INFO/OM                         */
 
@@ -299,6 +295,12 @@ footer .centerr {
 /* Small devices (landscape phones, 576px and up) */
 /**************************************************/
 @media (min-width: 576px) {
+    .container {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        min-width: 100vw;
+    }
 
     /* END "sm-" 576px and up */
 }
@@ -307,15 +309,17 @@ footer .centerr {
 /* // Medium devices (tablets, 768px and up) */
 /**************************************************/
 @media (min-width: 768px) {
+
+
     .burgermenu {
         display: none;
     }
 
     .nav {
         display: block;
+        min-width: 90vw;
+        z-index: 1;
     }
-
-
 
 
 
