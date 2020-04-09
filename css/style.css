@@ -43,7 +43,7 @@ h2 {
 }
 
 #hero .redboxpos {
-    margin-left: 40px;
+    margin-left: 52px;
     width: 50vw;
 }
 
@@ -89,8 +89,8 @@ h2 {
 }
 
 #hero .scrolldown {
-    bottom: -6rem;
-    left: -30px;
+    bottom: -40px;
+    left: -40px;
 }
 
 
@@ -107,6 +107,23 @@ h2 {
 #projekter p {
     font-size: 1.3em;
 }
+
+#projekter h2 {
+    font-size: 4em;
+
+}
+
+#projekter h2::after {
+    font-size: 1em;
+    content: ".";
+    color: #FF5851;
+}
+
+#projekter .skub {
+    z-index: 1;
+    top: -5px;
+}
+
 
 .projekt1 {
     background-color: lightblue;
@@ -133,7 +150,7 @@ h2 {
 
 
 
-/* INFO */
+/*                    INFO/OM                         */
 
 #info {
     min-height: 100vh;
@@ -143,19 +160,13 @@ h2 {
     width: 300px;
     height: 700px;
     background-color: #FF5851;
-    /*
-    width: 200px;
-    height: 500vh;
-    background-color: #FF5851;
-    transform: rotate(140deg);
-*/
+
 }
 
 
 #info .redboxpos {
     margin-left: 40px;
     width: 50vw;
-    /*    margin-top: -1648px;*/
 }
 
 
@@ -172,15 +183,18 @@ h2 {
 }
 
 #info .textbox {
-    left: 20px;
-    top: 300px;
+    left: 25px;
+    top: 230px;
+}
+
+#info #idimg {
+    z-index: 1;
 }
 
 
-
 #info .pos {
-    top: 60%;
-    left: 230px;
+    bottom: 5%;
+    left: 200px;
 }
 
 #info .arrow {
@@ -228,7 +242,7 @@ h2 {
 
 
 
-/*                --------------           */
+/*                --------------                      */
 
 footer {
     min-height: 25vh;
