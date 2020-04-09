@@ -43,7 +43,7 @@ h2 {
 }
 
 #hero .redboxpos {
-    margin-left: 52px;
+    margin-left: 10vw;
     width: 50vw;
 }
 
@@ -69,14 +69,14 @@ h2 {
 }
 
 #heropic {
-    z-index: 2;
-    max-height: 200px;
-    max-width: 200px;
+    z-index: 1;
+    max-height: 300px;
+    max-width: 300px;
 }
 
 #hero .pos {
     top: 60%;
-    left: 230px;
+    left: 190px;
 }
 
 #hero .arrow {
@@ -99,13 +99,13 @@ h2 {
 /* PROJEKTER */
 
 #projekter .textbox {
-    max-width: 400px;
+
     text-align: left;
     margin: auto;
 }
 
 #projekter p {
-    font-size: 1.3em;
+    font-size: 20px;
 }
 
 #projekter h2 {
@@ -161,7 +161,7 @@ h2 {
 
 
 #info .redboxpos {
-    margin-left: 40px;
+    margin-left: 10vw;
     width: 50vw;
 }
 
@@ -239,7 +239,7 @@ h2 {
 
 
 /*                --------------                      */
-
+/*     FOOTER       */
 footer {
     min-height: 25vh;
 }
@@ -273,7 +273,6 @@ footer .centerr {
     padding: 15px;
 }
 
-.some {}
 
 .cirkel {
     width: 60px;
@@ -287,7 +286,6 @@ footer .centerr {
     cursor: pointer;
 }
 
-/*footeren ligger nede i bunden af box nummer 1 fordi det er 100vh nede*/
 
 
 
@@ -302,6 +300,23 @@ footer .centerr {
         min-width: 100%;
     }
 
+    #hero .redbox {
+        width: 300px;
+        height: 600px;
+        background-color: #FF5851;
+    }
+
+    #hero .redboxpos {
+        width: 50vw;
+    }
+
+    #hero .scrolldown {
+        bottom: -140px;
+        left: -40px;
+    }
+
+
+
     /* END "sm-" 576px and up */
 }
 
@@ -309,6 +324,10 @@ footer .centerr {
 /* // Medium devices (tablets, 768px and up) */
 /**************************************************/
 @media (min-width: 768px) {
+
+    body {
+        background-color: gold;
+    }
 
     .container {}
 
@@ -323,6 +342,12 @@ footer .centerr {
         z-index: 1;
     }
 
+    #projekter .textbox {
+        max-width: 400px;
+        text-align: left;
+
+    }
+
 
 
     /* END "md-" 768px and up */
@@ -332,6 +357,8 @@ footer .centerr {
 /* // Large devices (desktops, 992px and up) */
 /**************************************************/
 @media (min-width: 992px) {
+
+
 
 
     /* END "lg-" 992px and up */
