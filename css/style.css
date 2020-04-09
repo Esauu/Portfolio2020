@@ -299,7 +299,7 @@ footer .centerr {
         padding: 0;
         margin-left: 0;
         margin-right: 0;
-        min-width: 100vw;
+        min-width: 100%;
     }
 
     /* END "sm-" 576px and up */
@@ -309,6 +309,8 @@ footer .centerr {
 /* // Medium devices (tablets, 768px and up) */
 /**************************************************/
 @media (min-width: 768px) {
+
+    .container {}
 
 
     .burgermenu {
@@ -339,6 +341,7 @@ footer .centerr {
 /* // Extra large devices (large desktops, 1200px and up) */
 /**************************************************/
 @media (min-width: 1200px) {
+    .container {}
 
 
     /* END "xl-" 1200px and up */
