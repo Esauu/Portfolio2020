@@ -371,6 +371,53 @@ footer .centerr {
         z-index: 1;
     }
 
+    /* NAV */
+
+    .navn {
+        font-size: 1.8rem;
+        position: absolute;
+        top: 1rem;
+        left: 0.7rem;
+    }
+
+    .portfolio {
+        font-size: 1.8rem;
+        position: absolute;
+        top: 1rem;
+        right: 8rem;
+    }
+
+    .info {
+        font-size: 1.8rem;
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+
+    }
+
+    /* Man sætter komma. for at sige man taler til nav a og inden i den taler man til p */
+    nav a,
+    nav a p {
+        color: #F8F8F8F8;
+        text-transform: uppercase;
+
+    }
+
+
+
+    nav a:hover {
+        text-decoration: none;
+    }
+
+
+
+    nav p {
+        font-family: 'metropolisextra_bold';
+        cursor: pointer;
+    }
+
+    /* NAV SLUT */
+
     #projekter .textbox {
         max-width: 460px;
     }
@@ -453,7 +500,7 @@ footer .centerr {
     }
 
     #hero .pos {
-        left: 490px;
+        left: 400px;
     }
 
     #hero p {
