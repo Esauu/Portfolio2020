@@ -329,9 +329,7 @@ footer .centerr {
     }
 
     #hero .redbox {
-        width: 400px;
-        height: 650px;
-
+        width: 350px;
     }
 
     #hero .redboxpos {
@@ -402,7 +400,7 @@ footer .centerr {
     }
 
     #projekter .skub {
-        left: 7.94vw;
+        left: 8vw;
         top: -5px;
     }
 
@@ -437,16 +435,54 @@ footer .centerr {
 /* // Extra large devices (large desktops, 1200px and up) */
 /**************************************************/
 @media (min-width: 1200px) {
-    .container {}
+
+    #heropic {}
+
+    #hero h1 {
+        font-size: 130px;
+    }
+
+    #hero .redbox {
+        width: 350px;
+        height: 650px;
+
+    }
+
+    #hero .redboxpos {
+        margin-left: 13vw;
+    }
+
+    #hero .pos {
+        left: 490px;
+    }
+
+    #hero p {
+        z-index: 2;
+        font-size: 24px
+    }
+
+    #hero .textbox {
+        left: 900px;
+
+    }
+
+    #hero .scrolldown {
+        /*        bottom: -100px;*/
+        left: 715px;
+        bottom: -30px;
+    }
+
+    #hero .fas {
+        font-size: 70px;
+    }
+
 
     .xl {
         max-width: 200px;
         max-height: 200px;
     }
 
-    body {
-        background-color: gold;
-    }
+
 
     /* END "xl-" 1200px and up */
 }
