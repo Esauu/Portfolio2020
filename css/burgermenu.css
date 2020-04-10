@@ -1,1 +1,48 @@
+.menuknap {
+    font-size: 2em;
+    cursor: pointer;
+    position: absolute;
+    top: 1vw;
+    right: 10px;
+    margin-left: 20px;
+    z-index: 3;
+    color: white;
+}
 
+.menu {
+    transform: translateX(-300%);
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    top: 0vw;
+    background-color: #020304;
+    transform-origin: top;
+    list-style-type: none;
+    padding-top: 50px;
+
+}
+
+.menu a {
+    margin-top: 130px;
+    font-size: 2.3em;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    color: #f8f8f8;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: ;
+}
+
+/* class der gør burgermenu knappen hvid, når man trykker på den*/
+.whiten {
+    color: black;
+}
+
+/* class der bliver toggled når man trykker på burgermenu knappen, så burgermenu'en vises */
+.showmenu {
+    transform: translateY(0%);
+    overflow-y: auto;
+    will-change: transform;
+    transition: transform .5s ease;
+}
