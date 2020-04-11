@@ -23,12 +23,12 @@
     background-color: #1C1A20;
     transform-origin: top;
     list-style-type: none;
-    padding-top: 50px;
+    padding-top: 160px;
     z-index: 99;
 }
 
 .menu a {
-    margin-top: 130px;
+
     font-size: 2.3em;
     display: flex;
     flex-direction: column;
@@ -62,6 +62,36 @@
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
     transition-delay: 0.1s;
+}
+
+.hoverbox1 {
+    opacity: 30%;
+    top: 190px;
+    left: 20px;
+    width: 50px;
+    height: 10px;
+    background-color: #F4B4A4;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.hoverbox1:hover {
+    width: 240px;
+}
+
+.hoverbox2 {
+    opacity: 30%;
+    top: 265px;
+    left: 20px;
+    width: 50px;
+    height: 10px;
+    background-color: #416B63;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.hoverbox2:hover {
+    width: 240px;
 }
 
 
