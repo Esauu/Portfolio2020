@@ -11,10 +11,12 @@ body {
 
 p {
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1,
-h2 {
+h2,
+h3 {
     color: white;
     text-transform: uppercase;
     font-family: 'metropolisextra_bold';
@@ -126,7 +128,7 @@ h2 {
 
 
 .projekt1 {
-    background-color: lightblue;
+    background-color: #011B33;
     height: 100vh;
 }
 
@@ -453,7 +455,11 @@ footer .centerr {
 
     #projekter .textbox {
         max-width: 460px;
-        max-height: 200px
+        max-height: 220px;
+    }
+
+    .projekt4 .textbox {
+        max-width: 580px;
     }
 
     .projekt1 {
