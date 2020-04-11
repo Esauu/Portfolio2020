@@ -3,23 +3,28 @@
     cursor: pointer;
     position: absolute;
     top: 1vw;
-    right: 10px;
-    margin-left: 20px;
-    z-index: 3;
+    left: 86vw;
+    margin-left: 0px;
+    z-index: 99;
     color: white;
+}
+
+.menubox {
+    /*    transition: opacity 500ms cubic-bezier(1, 0, 0, 1) 0ms;*/
+    transform: translateX(%)
 }
 
 .menu {
     transform: translateX(-300%);
-    width: 400px;
+    width: 100%;
     height: 100%;
     position: fixed;
     top: 0vw;
-    background-color: #020304;
+    background-color: #1C1A20;
     transform-origin: top;
     list-style-type: none;
     padding-top: 50px;
-
+    z-index: 99;
 }
 
 .menu a {
@@ -36,8 +41,29 @@
 
 /* class der gør burgermenu knappen hvid, når man trykker på den*/
 .whiten {
-    color: black;
+    color: white;
+    height: 300px;
 }
+
+.whiten:hover {
+    color: white;
+    height: 95vh;
+}
+
+.menubox {
+    position: fixed;
+    left: 83vw;
+    height: 75vh;
+    width: 24px;
+    background-color: #FF5851;
+    box-sizing: content-box;
+    z-index: 999;
+    transition-property: height;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.1s;
+}
+
 
 /* class der bliver toggled når man trykker på burgermenu knappen, så burgermenu'en vises */
 .showmenu {
@@ -45,4 +71,5 @@
     overflow-y: auto;
     will-change: transform;
     transition: transform .5s ease;
+
 }

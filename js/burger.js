@@ -14,11 +14,13 @@ function toggleMenu() {
         document.querySelector(".menuknap").textContent = "✕";
 
         document.querySelector(".menuknap").classList.add("whiten");
+        document.querySelector(".menuknap").classList.add("menubox");
 
 
     } else {
 
         document.querySelector(".menuknap").textContent = "☰";
         document.querySelector(".menuknap").classList.remove("whiten");
+        document.querySelector(".menuknap").classList.remove("menubox");
     }
 }
