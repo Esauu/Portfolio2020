@@ -91,7 +91,24 @@
 }
 
 .hoverbox2:hover {
-    width: 240px;
+    width: 130px;
+}
+
+.burgersome .pos {
+    right: 15px;
+    top: 15px;
+}
+
+.burgersome .pt-8 {
+    padding-top: 2vh;
+}
+
+.burgersome .center {
+    padding: 15.6px;
+}
+
+.burgersome .centerr {
+    padding: 15px;
 }
 
 
