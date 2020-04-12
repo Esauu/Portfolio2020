@@ -199,17 +199,19 @@ h3 {
 
 #info .textbox {
     left: 25px;
-    top: 230px;
+    top: 300px;
 }
 
 #info #idimg {
     z-index: 1;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 
 #info .pos {
-    bottom: 5%;
-    left: 200px;
+    top: 60%;
+    left: 190px;
 }
 
 #info .arrow {
@@ -222,8 +224,8 @@ h3 {
 }
 
 #info .scrolldown {
-    bottom: -6rem;
-    left: -30px;
+    bottom: -40px;
+    left: -40px;
 }
 
 #info .pospil {
@@ -332,6 +334,20 @@ footer .centerr {
         left: -60px;
     }
 
+    #info .redbox {
+        width: 300px;
+        height: 600px;
+    }
+
+    #info .redboxpos {
+        width: 50vw;
+    }
+
+    #info .scrolldown {
+        bottom: -140px;
+        left: -60px;
+    }
+
 
 
     /* END "sm-" 576px and up */
@@ -375,6 +391,42 @@ footer .centerr {
     }
 
     #hero .padtop {
+        padding-top: 50px;
+    }
+
+    #info h1 {
+        font-size: 95px;
+    }
+
+    #info .redbox {
+        width: 350px;
+    }
+
+    #info .redboxpos {
+        margin-left: 20vw;
+    }
+
+    #info .textbox {
+        left: 320px;
+        top: 290px;
+    }
+
+    #info .scrolldown {
+        bottom: -100px;
+        left: -150px;
+    }
+
+    #info #idimg {
+        max-height: 330px;
+        max-width: 330px;
+    }
+
+    #info .pos {
+        top: 55%;
+        left: 400px;
+    }
+
+    #info .padtop {
         padding-top: 50px;
     }
 
@@ -460,7 +512,19 @@ footer .centerr {
     }
 
     #hero .scrolldown {
-        /*        bottom: -100px;*/
+        left: -200px;
+    }
+
+    #info #idimg {
+        max-height: 360px;
+        max-width: 360px;
+    }
+
+    #info .pos {
+        left: 390px;
+    }
+
+    #info .scrolldown {
         left: -200px;
     }
 
@@ -544,6 +608,45 @@ footer .centerr {
     #hero .fas {
         font-size: 70px;
     }
+
+    #info h1 {
+        font-size: 130px;
+    }
+
+    #info .redbox {
+        width: 350px;
+        height: 650px;
+
+    }
+
+    #info .redboxpos {
+        margin-left: 13vw;
+    }
+
+    #info .pos {
+        left: 400px;
+    }
+
+    #info p {
+        z-index: 2;
+        font-size: 24px
+    }
+
+    #info .textbox {
+        left: 900px;
+
+    }
+
+    #info .scrolldown {
+        /*        bottom: -100px;*/
+        left: 715px;
+        bottom: -30px;
+    }
+
+    #info .fas {
+        font-size: 70px;
+    }
+
 
 
     .xl {
