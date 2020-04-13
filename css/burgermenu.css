@@ -11,7 +11,7 @@
 
 .menubox {
     /*    transition: opacity 500ms cubic-bezier(1, 0, 0, 1) 0ms;*/
-    transform: translateX(%)
+    transform: translateX()
 }
 
 .menu {
@@ -37,7 +37,7 @@
     color: #f8f8f8;
     cursor: pointer;
     text-decoration: none;
-    font-family: ;
+    font-family: metropolisextra_bold;
 }
 
 .menu .burgersome a {

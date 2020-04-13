@@ -75,17 +75,17 @@ h3 {
 
 #hero .textbox {
     left: 20px;
-    top: 300px;
+    top: 280px;
 }
 
 #heropic {
     z-index: 1;
-    max-height: 300px;
+    max-height: 100%;
     max-width: 300px;
 }
 
 #hero .pos {
-    top: 60%;
+    top: 50%;
     left: 190px;
 }
 
@@ -187,6 +187,12 @@ h3 {
 
 }
 
+#info .fs {
+    font-family: metropolisextra_bold;
+    color: #26f4b4;
+    font-size: 1.7em
+}
+
 
 #info .redboxpos {
     margin-left: 10vw;
@@ -219,8 +225,8 @@ h3 {
 
 
 #info .pos {
-    top: 45%;
-    left: 190px;
+    top: 25%;
+    left: 90px;
 }
 
 #info .arrow {
@@ -264,7 +270,7 @@ h3 {
 #omtext .omtext {
     background-color: seagreen;
     text-align: left;
-    height: 1250px;
+    height: 1050px;
     font-size: 1.1em;
 }
 
@@ -472,7 +478,7 @@ footer a:hover {
 
     #hero .textbox {
         left: 320px;
-        top: 290px;
+        top: 270px;
     }
 
     #hero .scrolldown {
@@ -481,12 +487,12 @@ footer a:hover {
     }
 
     #heropic {
-        max-height: 330px;
+        max-height: 100%;
         max-width: 330px;
     }
 
     #hero .pos {
-        top: 55%;
+        top: 45%;
         left: 400px;
     }
 
@@ -522,7 +528,7 @@ footer a:hover {
 
     #info .pos {
         top: 40%;
-        left: 400px;
+        left: 300px;
     }
 
     #info .padtop {
@@ -662,12 +668,13 @@ footer a:hover {
 @media (min-width: 992px) {
 
     #heropic {
-        max-height: 360px;
-        max-width: 360px;
+        max-height: 100%;
+        max-width: 320px;
     }
 
     #hero .pos {
         left: 390px;
+        top: 43%
     }
 
     #hero .scrolldown {
@@ -724,6 +731,11 @@ footer a:hover {
 
     .omtext .textbox {
         max-width: 805px;
+
+    }
+
+    #omtext .omtext {
+        max-height: 500px;
     }
 
     .t4 {
@@ -794,16 +806,17 @@ footer a:hover {
     }
 
     #info .pos {
+        top: 35%;
         left: 400px;
     }
 
     #info p {
         z-index: 2;
-        font-size: 24px
+        font-size: 19px
     }
 
     #info .textbox {
-        left: 900px;
+        left: 590px;
 
     }
 
@@ -822,6 +835,10 @@ footer a:hover {
     .xl {
         max-width: 200px;
         max-height: 200px;
+    }
+
+    #omtext .omtext {
+        max-height: 600px;
     }
 
     .omtext .textbox {
