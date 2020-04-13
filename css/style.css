@@ -98,6 +98,12 @@ h3 {
     line-height: 0.4;
 }
 
+#hero a {
+    line-height: 0.3;
+    color: #FF5851;
+    cursor: pointer;
+}
+
 #hero .scrolldown {
     bottom: -40px;
     left: -40px;
