@@ -262,6 +262,9 @@ h3 {
     font-size: 1.1em;
 }
 
+.t4 {
+    display: none;
+}
 
 
 
@@ -653,6 +656,10 @@ footer .centerr {
         max-width: 805px;
     }
 
+    .t4 {
+        display: block;
+    }
+
 
     /* END "lg-" 992px and up */
 }
@@ -750,6 +757,25 @@ footer .centerr {
     .omtext .textbox {
         max-width: 505px;
     }
+
+    .omtext .t1 {
+        padding-left: 6vw
+    }
+
+    .omtext .t2 {
+        padding-left: 6vw
+    }
+
+    .omtext .t3 {
+        padding-left: 6vw
+    }
+
+    .omtext .t4 {
+        padding-left: 6vw
+    }
+
+
+
 
 
 
