@@ -232,6 +232,13 @@ h3 {
 #info .arrow {
     font-size: 3em;
     color: #FF5851;
+    z-index: 100;
+}
+
+#info a {
+    line-height: 0.3;
+    color: #FF5851;
+    cursor: pointer;
 }
 
 #info .fas {
