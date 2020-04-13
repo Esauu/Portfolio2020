@@ -307,6 +307,11 @@ footer a {
     color: #1C1A20;
 }
 
+footer a:hover {
+    color: #1C1A20;
+}
+
+
 .cirkel {
     width: 60px;
     height: 60px;
@@ -555,6 +560,58 @@ footer a {
         top: 1rem;
         right: 2rem;
 
+    }
+
+    nav .navbox1 {
+        width: 2px;
+        height: 10px;
+        background-color: #1C1A20;
+        opacity: 80%;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+    }
+
+    nav .navbox1:hover {
+        width: 175px;
+        height: 10px;
+        background-color: #FF5851;
+        opacity: 80%;
+    }
+
+
+
+    .nb1p {
+        top: 14px;
+    }
+
+    .nb1op {
+        top: -14px;
+    }
+
+    nav .navbox2 {
+        width: 2px;
+        height: 10px;
+        background-color: #1C1A20;
+        opacity: 80%;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+    }
+
+    nav .navbox2:hover {
+        width: 75px;
+        height: 10px;
+        background-color: seagreen;
+        opacity: 80%;
+    }
+
+
+
+    .nb2p {
+        top: 14px;
+    }
+
+    .nb2op {
+        top: -14px;
     }
 
     /* Man sætter komma. for at sige man taler til nav a og inden i den taler man til p */

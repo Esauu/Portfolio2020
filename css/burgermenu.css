@@ -72,12 +72,12 @@
 }
 
 .hoverbox1 {
-    opacity: 40%;
+    opacity: 50%;
     top: 190px;
     left: 20px;
     width: 50px;
     height: 10px;
-    background-color: #F4B4A4;
+    background-color: #FF5851;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
