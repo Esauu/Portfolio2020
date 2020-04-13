@@ -208,12 +208,12 @@ h3 {
 #info #idimg {
     z-index: 1;
     max-width: 300px;
-    max-height: 300px;
+    max-height: 100%;
 }
 
 
 #info .pos {
-    top: 60%;
+    top: 45%;
     left: 190px;
 }
 
@@ -301,6 +301,10 @@ footer .center {
 
 footer .centerr {
     padding: 15px;
+}
+
+footer a {
+    color: #1C1A20;
 }
 
 .cirkel {
@@ -493,7 +497,7 @@ footer .centerr {
 
     #info .textbox {
         left: 320px;
-        top: 290px;
+        top: 250px;
     }
 
     #info .scrolldown {
@@ -502,12 +506,11 @@ footer .centerr {
     }
 
     #info #idimg {
-        max-height: 330px;
         max-width: 330px;
     }
 
     #info .pos {
-        top: 55%;
+        top: 40%;
         left: 400px;
     }
 
@@ -609,12 +612,16 @@ footer .centerr {
     }
 
     #info #idimg {
-        max-height: 360px;
         max-width: 360px;
     }
 
     #info .pos {
+        top: 35%;
         left: 390px;
+    }
+
+    #info .textbox {
+        top: 27%;
     }
 
     #info .scrolldown {
@@ -773,9 +780,6 @@ footer .centerr {
     .omtext .t4 {
         padding-left: 6vw
     }
-
-
-
 
 
 

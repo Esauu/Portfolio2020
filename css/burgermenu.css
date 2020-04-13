@@ -40,6 +40,12 @@
     font-family: ;
 }
 
+.menu .burgersome a {
+    font-size: 15px;
+    padding: 0;
+    color: #212529;
+}
+
 /* class der gør burgermenu knappen hvid, når man trykker på den*/
 .whiten {
     color: white;
