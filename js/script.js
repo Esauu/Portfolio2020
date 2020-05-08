@@ -10,7 +10,10 @@ $(function () { // DOM ready for jQuery??
         duration: 2000,
         origin: 'right',
         distance: '500px',
-        viewFactor: 0.2
+        viewFactor: 0.2,
+
+
+        mobile: false
 
     });
 
@@ -19,7 +22,9 @@ $(function () { // DOM ready for jQuery??
         duration: 2000,
         origin: 'left',
         distance: '500px',
-        viewFactor: 0.2
+        viewFactor: 0.2,
+        mobile: false
+
 
     });
 

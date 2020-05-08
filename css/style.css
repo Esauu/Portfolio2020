@@ -66,7 +66,8 @@ h3 {
     margin-top: 100px;
     margin-left: 30px;
     font-family: 'metropolisextra_bold';
-    font-size: 3.6em;
+    font-size: min(3.4em, 13vw);
+    /*min, vælger den mindste værdi */
 }
 
 #hero p {
@@ -156,22 +157,30 @@ h3 {
 .projekt1 {
     background-color: #011B33;
     height: 100vh;
+    /*    min-height: 750px;*/
+    min-height: -webkit-fill-available;
 }
 
 .projekt2 {
     background-color: crimson;
     height: 100vh;
+    /*    min-height: 750px;*/
+    min-height: -webkit-fill-available;
 }
 
 .projekt3 {
     background-color: #4379e0;
     height: 100vh;
+    /*    min-height: 750px;*/
+    min-height: -webkit-fill-available;
 
 }
 
 .projekt4 {
     background-color: peru;
     height: 100vh;
+    /*    min-height: 750px;*/
+    min-height: -webkit-fill-available;
 }
 
 /*                    INFO/OM                         */
