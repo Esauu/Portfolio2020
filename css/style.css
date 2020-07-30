@@ -44,6 +44,7 @@ h3 {
     display: none;
 }
 
+
 /*****************  HERO BOX  ****************************/
 
 #hero .redbox {
@@ -156,21 +157,22 @@ h3 {
 
 .projekt1 {
     background-color: #011B33;
-    height: 100vh;
+    height: min(100vh, 1000px);
     /*    min-height: 750px;*/
     min-height: -webkit-fill-available;
 }
 
 .projekt2 {
     background-color: crimson;
-    height: 100vh;
+    height: min(100vh, 1050px);
     /*    min-height: 750px;*/
     min-height: -webkit-fill-available;
 }
 
 .projekt3 {
     background-color: #4379e0;
-    height: 100vh;
+
+    height: min(100vh, 1050px);
     /*    min-height: 750px;*/
     min-height: -webkit-fill-available;
 
@@ -178,7 +180,8 @@ h3 {
 
 .projekt4 {
     background-color: peru;
-    height: 100vh;
+
+    height: min(100vh, 1050px);
     /*    min-height: 750px;*/
     min-height: -webkit-fill-available;
 }
@@ -291,7 +294,7 @@ h3 {
 #omtext .omtext {
     background-color: seagreen;
     text-align: left;
-    height: min(1050px, 100%);
+    height: min(1150px, 100%);
     /*enten 1050 eller helt til footeren*/
     font-size: 1.1em;
 }
@@ -734,22 +737,24 @@ footer a:hover {
         max-width: 580px;
     }
 
+    /*
     .projekt1 {
-        height: 90vh;
+        height: 100vh;
     }
 
     .projekt2 {
-        height: 90vh;
+        height: 100vh;
     }
 
     .projekt3 {
-        height: 90vh;
+        height: 100vh;
 
     }
 
     .projekt4 {
-        height: 90vh;
+        height: 100vh;
     }
+*/
 
     .omtext .textbox {
         max-width: 805px;
